@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_fastlaneDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_fastlaneDemoVersionString[];
+FOUNDATION_EXPORT double Pods_FastlaneDemoTestVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FastlaneDemoTestVersionString[];
 
