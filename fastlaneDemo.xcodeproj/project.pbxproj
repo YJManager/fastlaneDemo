@@ -10,13 +10,11 @@
 		2C1363B7A7AD50E81A843DFA /* Pods_FastlaneDemoAppstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC689F7B07F8D050D3A53DCF /* Pods_FastlaneDemoAppstore.framework */; };
 		630D64591EE69F5E00E12069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D64541EE69D5600E12069 /* MainViewController.swift */; };
 		630D645A1EE69F5E00E12069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D643F1EE69B7D00E12069 /* AppDelegate.swift */; };
-		630D645C1EE69F5E00E12069 /* Pods_fastlaneDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AE598874946A8FEA9E8CFA /* Pods_fastlaneDemo.framework */; };
 		630D645F1EE69F5E00E12069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64481EE69B7D00E12069 /* LaunchScreen.storyboard */; };
 		630D64601EE69F5E00E12069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630D64461EE69B7D00E12069 /* Assets.xcassets */; };
 		630D64611EE69F5E00E12069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64431EE69B7D00E12069 /* Main.storyboard */; };
 		630D646C1EE69F7300E12069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D64541EE69D5600E12069 /* MainViewController.swift */; };
 		630D646D1EE69F7300E12069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D643F1EE69B7D00E12069 /* AppDelegate.swift */; };
-		630D646F1EE69F7300E12069 /* Pods_fastlaneDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AE598874946A8FEA9E8CFA /* Pods_fastlaneDemo.framework */; };
 		630D64721EE69F7300E12069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64481EE69B7D00E12069 /* LaunchScreen.storyboard */; };
 		630D64731EE69F7300E12069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630D64461EE69B7D00E12069 /* Assets.xcassets */; };
 		630D64741EE69F7300E12069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64431EE69B7D00E12069 /* Main.storyboard */; };
@@ -24,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31AE598874946A8FEA9E8CFA /* Pods_fastlaneDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastlaneDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4747C07232F0C9CF8CEAD5FD /* Pods-FastlaneDemoAppstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoAppstore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoAppstore/Pods-FastlaneDemoAppstore.release.xcconfig"; sourceTree = "<group>"; };
 		630D643F1EE69B7D00E12069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		630D64441EE69B7D00E12069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630D645C1EE69F5E00E12069 /* Pods_fastlaneDemo.framework in Frameworks */,
 				D3DF06BB16FDEFEF81E3B84A /* Pods_FastlaneDemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630D646F1EE69F7300E12069 /* Pods_fastlaneDemo.framework in Frameworks */,
 				2C1363B7A7AD50E81A843DFA /* Pods_FastlaneDemoAppstore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +114,6 @@
 		EE38345D7348F26D76FD523A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31AE598874946A8FEA9E8CFA /* Pods_fastlaneDemo.framework */,
 				BC689F7B07F8D050D3A53DCF /* Pods_FastlaneDemoAppstore.framework */,
 				C55B69AB6D42EB159E2054AF /* Pods_FastlaneDemoTest.framework */,
 			);
