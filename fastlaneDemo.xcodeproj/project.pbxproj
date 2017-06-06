@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C1363B7A7AD50E81A843DFA /* Pods_FastlaneDemoAppstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC689F7B07F8D050D3A53DCF /* Pods_FastlaneDemoAppstore.framework */; };
 		630D64591EE69F5E00E12069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D64541EE69D5600E12069 /* MainViewController.swift */; };
 		630D645A1EE69F5E00E12069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D643F1EE69B7D00E12069 /* AppDelegate.swift */; };
 		630D645F1EE69F5E00E12069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64481EE69B7D00E12069 /* LaunchScreen.storyboard */; };
@@ -18,11 +17,9 @@
 		630D64721EE69F7300E12069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64481EE69B7D00E12069 /* LaunchScreen.storyboard */; };
 		630D64731EE69F7300E12069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630D64461EE69B7D00E12069 /* Assets.xcassets */; };
 		630D64741EE69F7300E12069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64431EE69B7D00E12069 /* Main.storyboard */; };
-		D3DF06BB16FDEFEF81E3B84A /* Pods_FastlaneDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55B69AB6D42EB159E2054AF /* Pods_FastlaneDemoTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4747C07232F0C9CF8CEAD5FD /* Pods-FastlaneDemoAppstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoAppstore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoAppstore/Pods-FastlaneDemoAppstore.release.xcconfig"; sourceTree = "<group>"; };
 		630D643F1EE69B7D00E12069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		630D64441EE69B7D00E12069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		630D64461EE69B7D00E12069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,11 +29,6 @@
 		630D647A1EE69F7300E12069 /* FastlaneDemoAppstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneDemoAppstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		630D647C1EE6A04B00E12069 /* FastlaneDemoAppstore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FastlaneDemoAppstore-Info.plist"; sourceTree = "<group>"; };
 		630D647E1EE6A05600E12069 /* FastlaneDemoTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FastlaneDemoTest-Info.plist"; sourceTree = "<group>"; };
-		9A0B5FBE16C517CDEFFF1488 /* Pods-FastlaneDemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoTest/Pods-FastlaneDemoTest.release.xcconfig"; sourceTree = "<group>"; };
-		BC689F7B07F8D050D3A53DCF /* Pods_FastlaneDemoAppstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneDemoAppstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C55B69AB6D42EB159E2054AF /* Pods_FastlaneDemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneDemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D126F02221C573C9249A1C32 /* Pods-FastlaneDemoAppstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoAppstore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoAppstore/Pods-FastlaneDemoAppstore.debug.xcconfig"; sourceTree = "<group>"; };
-		F07F16594DA770B6961B7C5B /* Pods-FastlaneDemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoTest/Pods-FastlaneDemoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DF06BB16FDEFEF81E3B84A /* Pods_FastlaneDemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1363B7A7AD50E81A843DFA /* Pods_FastlaneDemoAppstore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +54,6 @@
 			children = (
 				630D643E1EE69B7D00E12069 /* fastlaneDemo */,
 				630D643D1EE69B7D00E12069 /* Products */,
-				85DA59E1E7DF2BC88DA7CE47 /* Pods */,
-				EE38345D7348F26D76FD523A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,26 +88,6 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		85DA59E1E7DF2BC88DA7CE47 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D126F02221C573C9249A1C32 /* Pods-FastlaneDemoAppstore.debug.xcconfig */,
-				4747C07232F0C9CF8CEAD5FD /* Pods-FastlaneDemoAppstore.release.xcconfig */,
-				F07F16594DA770B6961B7C5B /* Pods-FastlaneDemoTest.debug.xcconfig */,
-				9A0B5FBE16C517CDEFFF1488 /* Pods-FastlaneDemoTest.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EE38345D7348F26D76FD523A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BC689F7B07F8D050D3A53DCF /* Pods_FastlaneDemoAppstore.framework */,
-				C55B69AB6D42EB159E2054AF /* Pods_FastlaneDemoTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,12 +95,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630D64641EE69F5E00E12069 /* Build configuration list for PBXNativeTarget "FastlaneDemoTest" */;
 			buildPhases = (
-				630D64571EE69F5E00E12069 /* [CP] Check Pods Manifest.lock */,
 				630D64581EE69F5E00E12069 /* Sources */,
 				630D645B1EE69F5E00E12069 /* Frameworks */,
 				630D645D1EE69F5E00E12069 /* Resources */,
-				630D64621EE69F5E00E12069 /* [CP] Embed Pods Frameworks */,
-				630D64631EE69F5E00E12069 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,12 +112,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630D64771EE69F7300E12069 /* Build configuration list for PBXNativeTarget "FastlaneDemoAppstore" */;
 			buildPhases = (
-				630D646A1EE69F7300E12069 /* [CP] Check Pods Manifest.lock */,
 				630D646B1EE69F7300E12069 /* Sources */,
 				630D646E1EE69F7300E12069 /* Frameworks */,
 				630D64701EE69F7300E12069 /* Resources */,
-				630D64751EE69F7300E12069 /* [CP] Embed Pods Frameworks */,
-				630D64761EE69F7300E12069 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,99 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		630D64571EE69F5E00E12069 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		630D64621EE69F5E00E12069 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoTest/Pods-FastlaneDemoTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		630D64631EE69F5E00E12069 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoTest/Pods-FastlaneDemoTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		630D646A1EE69F7300E12069 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		630D64751EE69F7300E12069 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoAppstore/Pods-FastlaneDemoAppstore-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		630D64761EE69F7300E12069 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoAppstore/Pods-FastlaneDemoAppstore-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		630D64581EE69F5E00E12069 /* Sources */ = {
@@ -452,7 +321,6 @@
 		};
 		630D64651EE69F5E00E12069 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F07F16594DA770B6961B7C5B /* Pods-FastlaneDemoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -470,7 +338,6 @@
 		};
 		630D64661EE69F5E00E12069 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A0B5FBE16C517CDEFFF1488 /* Pods-FastlaneDemoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -488,7 +355,6 @@
 		};
 		630D64781EE69F7300E12069 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D126F02221C573C9249A1C32 /* Pods-FastlaneDemoAppstore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -506,7 +372,6 @@
 		};
 		630D64791EE69F7300E12069 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4747C07232F0C9CF8CEAD5FD /* Pods-FastlaneDemoAppstore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
