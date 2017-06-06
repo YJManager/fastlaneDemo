@@ -26,7 +26,6 @@
 		5A676B8B76038938F08F74B28CE54A97 /* Pods_FastlaneDemoAppstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FastlaneDemoAppstore.framework; path = "Pods-FastlaneDemoAppstore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605AEF8CE6308E65D79A104DB6657DC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6ABD1AE4B8C2FAE7A23D6ED2AFAED8DB /* YJCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJCommonMacro.h; path = YJCommonMacro/YJCommonMacro.h; sourceTree = "<group>"; };
 		6BE883329FCAFF51910E7A6C91E90CD7 /* Pods-FastlaneDemoAppstore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastlaneDemoAppstore-umbrella.h"; sourceTree = "<group>"; };
 		76EC0084B2E9507170515ABD2B35F884 /* Pods-FastlaneDemoTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastlaneDemoTest-umbrella.h"; sourceTree = "<group>"; };
 		77E21DF71996FECAF49062BD8FE1B607 /* Pods-FastlaneDemoAppstore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastlaneDemoAppstore-resources.sh"; sourceTree = "<group>"; };
@@ -63,23 +62,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06B58A2DA454D48D3313452A69755B88 /* YJCommonMacro */ = {
-			isa = PBXGroup;
-			children = (
-				6ABD1AE4B8C2FAE7A23D6ED2AFAED8DB /* YJCommonMacro.h */,
-			);
-			name = YJCommonMacro;
-			path = YJCommonMacro;
-			sourceTree = "<group>";
-		};
-		61A99ADE0C6D0924CCA9E85851307AF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06B58A2DA454D48D3313452A69755B88 /* YJCommonMacro */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		79FC6AD67F8B1C5BA1038990ED375FBB /* Pods-FastlaneDemoTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +85,6 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				61A99ADE0C6D0924CCA9E85851307AF8 /* Pods */,
 				87A2D74437FB092D0059303BF4E7EA01 /* Products */,
 				F38D90BCB1EEA6917CFEE157662D4B22 /* Targets Support Files */,
 			);

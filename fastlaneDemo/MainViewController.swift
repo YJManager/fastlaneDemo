@@ -12,12 +12,19 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        _setupMainView()
     }
     
     func _setupMainView() {
         
-        let showLabel = UILabel(frame: CGRect(x: 20, y: 100, width: 20, height: 20)
+        let leftMargin = 15.0, topMargin = 15.0 + 64.0
+        
+        let showLabel = UILabel(frame: CGRect(x: leftMargin, y: topMargin, width: (Double(UIScreen.main.bounds.size.width) - 2 * leftMargin), height: 44.0))
+        showLabel.backgroundColor = UIColor.orange
+        showLabel.font = UIFont.systemFont(ofSize: 14.0)
+        showLabel.textAlignment = .center
+        view .addSubview(showLabel)
         
     }
 
