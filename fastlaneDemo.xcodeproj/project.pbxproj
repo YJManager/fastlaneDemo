@@ -20,8 +20,6 @@
 		630D64721EE69F7300E12069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64481EE69B7D00E12069 /* LaunchScreen.storyboard */; };
 		630D64731EE69F7300E12069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630D64461EE69B7D00E12069 /* Assets.xcassets */; };
 		630D64741EE69F7300E12069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D64431EE69B7D00E12069 /* Main.storyboard */; };
-		630D647D1EE6A04B00E12069 /* FastlaneDemoAppstore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 630D647C1EE6A04B00E12069 /* FastlaneDemoAppstore-Info.plist */; };
-		630D647F1EE6A05600E12069 /* FastlaneDemoTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 630D647E1EE6A05600E12069 /* FastlaneDemoTest-Info.plist */; };
 		D3DF06BB16FDEFEF81E3B84A /* Pods_FastlaneDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55B69AB6D42EB159E2054AF /* Pods_FastlaneDemoTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -214,7 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				630D645F1EE69F5E00E12069 /* LaunchScreen.storyboard in Resources */,
-				630D647F1EE6A05600E12069 /* FastlaneDemoTest-Info.plist in Resources */,
 				630D64601EE69F5E00E12069 /* Assets.xcassets in Resources */,
 				630D64611EE69F5E00E12069 /* Main.storyboard in Resources */,
 			);
@@ -227,7 +224,6 @@
 				630D64721EE69F7300E12069 /* LaunchScreen.storyboard in Resources */,
 				630D64731EE69F7300E12069 /* Assets.xcassets in Resources */,
 				630D64741EE69F7300E12069 /* Main.storyboard in Resources */,
-				630D647D1EE6A04B00E12069 /* FastlaneDemoAppstore-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
