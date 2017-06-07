@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CommonParameter
 
 class MainViewController: UIViewController {
 
@@ -20,7 +21,7 @@ class MainViewController: UIViewController {
         
         let leftMargin = 15.0, topMargin = 15.0 + 64.0
         
-        let showLabel = UILabel(frame: CGRect(x: leftMargin, y: topMargin, width: (Double(UIScreen.main.bounds.size.width) - 2 * leftMargin), height: 44.0))
+        let showLabel = UILabel(frame: CGRect(x: leftMargin, y: topMargin, width: (kSCREEN_WIDTH - 2 * leftMargin), height: 44.0))
         showLabel.backgroundColor = UIColor.orange
         showLabel.font = UIFont.systemFont(ofSize: 14.0)
         showLabel.textAlignment = .center

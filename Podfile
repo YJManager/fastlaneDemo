@@ -7,6 +7,7 @@ def common_pods
     use_frameworks!
     
 #    pod 'YJCommonMacro'
+    pod 'CommonParameter' # swift 常用参数
 
 end
     
